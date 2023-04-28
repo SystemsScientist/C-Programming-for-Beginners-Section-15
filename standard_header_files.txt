@@ -1,0 +1,38 @@
+
+Section 15: Standard Header Files
+---------------------------------------------------------------------------------
+
+stddef.h 
+
+<stddef.h> - contains some standard definitions
+
+Define			Meaning
+
+NULL			a null pointer constant
+offsetof		the offset in bytes of the member from the start
+			of the structure; the type of the result it size_t
+ptrdiff_t		the type of integer produced by subtracting two
+			pointers
+size_t			the type of integer produced by the sizeof operator
+wchar_t			the type of integer required to hold a wide charcter
+
+
+limits.h
+
+<limits.h> - contains various implementation-defined limits for character
+	     and integer data types
+
+
+stdbool.h
+
+<stdbool.h> - file contains definitions for working with boolean variables
+	      (type_bool)
+
+Define			Meaning
+
+bool			substitute name for the basic _Bool data type
+true			defined as 1
+false			defined as 0
+
+
+
